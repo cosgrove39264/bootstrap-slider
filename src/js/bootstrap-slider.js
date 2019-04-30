@@ -907,7 +907,8 @@ const windowIsDefined = (typeof window === "object");
 				focus: false,
 				tooltip_position: null,
 				labelledby: null,
-				rangeHighlights: []
+				rangeHighlights: [],
+				owner:{} // Component-Owner
 			},
 
 			getElement: function() {
